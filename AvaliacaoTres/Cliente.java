@@ -54,5 +54,6 @@ public class Cliente extends Pessoa {
 
     public void adicionarReceita(Receita receita) {
         this.receitas.add(receita);
+        receita.adicionarCliente(this);
     }
 }
