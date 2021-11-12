@@ -17,7 +17,7 @@ public class Cliente extends Pessoa {
         super(idPessoa, nomePessoa, cpf, dataNascimento);
         this.telefone = telefone;
     }
-
+    
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
